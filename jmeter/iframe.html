@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Bootstrap Tutorial - A responsive layout tutorial</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="show" class="container"></div>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            history.pushState(null,null,"http://192.168.19.214:9000/test_case/");
+            $("#show").load("http://192.168.19.214:9000/test_case/");
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+2018-05-31 15:51:41,975 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2018-05-31 15:51:41,999 INFO o.a.j.JMeter: Loading user properties from: D:\apache-jmeter-4.0\apache-jmeter-4.0\bin\user.properties
+2018-05-31 15:51:42,004 INFO o.a.j.JMeter: Loading system properties from: D:\apache-jmeter-4.0\apache-jmeter-4.0\bin\system.properties
+2018-05-31 15:51:42,009 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-05-31 15:51:42,011 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-05-31 15:51:42,011 INFO o.a.j.JMeter: java.version=1.8.0_66
+2018-05-31 15:51:42,011 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-05-31 15:51:42,011 INFO o.a.j.JMeter: os.name=Windows 10
+2018-05-31 15:51:42,011 INFO o.a.j.JMeter: os.arch=amd64
+2018-05-31 15:51:42,011 INFO o.a.j.JMeter: os.version=10.0
+2018-05-31 15:51:42,011 INFO o.a.j.JMeter: file.encoding=GBK
+2018-05-31 15:51:42,011 INFO o.a.j.JMeter: Max memory     =7618953216
+2018-05-31 15:51:42,011 INFO o.a.j.JMeter: Available Processors =24
+2018-05-31 15:51:42,017 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2018-05-31 15:51:42,017 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2018-05-31 15:51:42,017 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-4.0\apache-jmeter-4.0
+2018-05-31 15:51:42,017 INFO o.a.j.JMeter: user.dir  =D:\performance_test_jmeter\jmeter
+2018-05-31 15:51:42,017 INFO o.a.j.JMeter: PWD       =D:\performance_test_jmeter\jmeter
+2018-05-31 15:51:42,020 INFO o.a.j.JMeter: IP: 192.168.21.175 Name: WDWSPC062 FullName: WDWSPC062.mobilelab.local
+2018-05-31 15:51:42,021 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Cannot write to 'C:\Program Files\Git\test_case\report\scan_go20180531155057\html' as folder does not exist and parent folder is not writable
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:616) ~[jorphan.jar:4.0 r1823414]
+	at org.apache.jmeter.JMeter.extractAndSetReportOutputFolder(JMeter.java:572) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.JMeter.start(JMeter.java:527) [ApacheJMeter_core.jar:4.0 r1823414]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_66]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:245) [ApacheJMeter.jar:4.0 r1823414]

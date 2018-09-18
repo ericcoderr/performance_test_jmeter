@@ -1,0 +1,1 @@
+/usr/local/src/jmeter/apache-jmeter-4.0/bin/jmeter-server -Djava.rmi.server.hostname=192.168.21.26 -Dserver_port=8000  &
